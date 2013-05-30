@@ -270,17 +270,149 @@ public:
         * I REPEAT ONCE MORE PLEASE DO NOT TOUCH ANYTHING ELSE IN THE FILE IT IS EXTREMELY DELICATE AND EXTREMELY COMPLEX
         */
 
-        Vendor vendor_1(700000, GOSSIP_ICON_VENDOR, "Look at all the weapons I have");
+        Vendor vendor_1(700000, GOSSIP_ICON_VENDOR, "Starting Gear - Death Knight");
         ItemList items_1(&vendor_1);
-        items_1.AddItem(18582); // Azzinoth
-        items_1.AddItem(13262); // Ashbringer
+        items_1.AddItem(39617); // 
+        items_1.AddItem(39618); //
+        items_1.AddItem(39619); //
+        items_1.AddItem(39620); //
+        items_1.AddItem(39621); //
+        //
+        items_1.AddItem(39623); // 
+        items_1.AddItem(39624); //
+        items_1.AddItem(39625); //
+        items_1.AddItem(39626); //
+        items_1.AddItem(39627); //
         itemlists.push_back(items_1);
 
-        Vendor vendor_2(700001, GOSSIP_ICON_VENDOR, "Look at all the armour I have");
+        Vendor vendor_2(700001, GOSSIP_ICON_VENDOR, "Starting Gear - Warrior");
         ItemList items_2(&vendor_2);
-        items_2.AddItem(42949); // Polished Spaulders of Valor
-        items_2.AddItem(48685); // Polished Breastplate of Valor
+        items_2.AddItem(39605); // 
+        items_2.AddItem(39606); // 
+        items_2.AddItem(39607); // 
+        items_2.AddItem(39608); //
+        items_2.AddItem(39609); //
+        //
+        items_2.AddItem(39610); //
+        items_2.AddItem(39611); // 
+        items_2.AddItem(39612); //
+        items_2.AddItem(39613); // 
+        items_2.AddItem(39622); //
         itemlists.push_back(items_2);
+        
+        Vendor vendor_3(700002, GOSSIP_ICON_VENDOR, "Starting Gear - Paladin");
+        ItemList items_3(&vendor_3);
+        items_3.AddItem(39633); // 
+        items_3.AddItem(39634); // 
+        items_3.AddItem(39635); // 
+        items_3.AddItem(39636); //
+        items_3.AddItem(39637); //
+        //
+        items_3.AddItem(39638); //
+        items_3.AddItem(39639); // 
+        items_3.AddItem(39640); //
+        items_3.AddItem(39641); // 
+        items_3.AddItem(39642); //
+        //
+        items_3.AddItem(39628); //
+        items_3.AddItem(39629); // 
+        items_3.AddItem(39630); //
+        items_3.AddItem(39631); // 
+        items_3.AddItem(39632); //
+        itemlists.push_back(items_3);
+        
+        Vendor vendor_4(700003, GOSSIP_ICON_VENDOR, "Starting Gear - Shaman");
+        ItemList items_4(&vendor_4);
+        items_4.AddItem(39597); // 
+        items_4.AddItem(39601); // 
+        items_4.AddItem(39602); // 
+        items_4.AddItem(39603); //
+        items_4.AddItem(39604); //
+        //
+        items_4.AddItem(39592); //
+        items_4.AddItem(39593); // 
+        items_4.AddItem(39594); //
+        items_4.AddItem(39595); // 
+        items_4.AddItem(39596); //
+        //
+        items_4.AddItem(39583); //
+        items_4.AddItem(39588); // 
+        items_4.AddItem(39589); //
+        items_4.AddItem(39590); // 
+        items_4.AddItem(39591); //
+        itemlists.push_back(items_4);
+        
+        Vendor vendor_5(700004, GOSSIP_ICON_VENDOR, "Starting Gear - Hunter");
+        ItemList items_5(&vendor_5);
+        items_5.AddItem(39578); // 
+        items_5.AddItem(39579); // 
+        items_5.AddItem(39580); // 
+        items_5.AddItem(39581); //
+        items_5.AddItem(39582); //
+        itemlists.push_back(items_5);
+        
+        Vendor vendor_6(700005, GOSSIP_ICON_VENDOR, "Starting Gear - Rogue");
+        ItemList items_6(&vendor_6);
+        items_6.AddItem(39558); // 
+        items_6.AddItem(39560); // 
+        items_6.AddItem(39561); // 
+        items_6.AddItem(39564); //
+        items_6.AddItem(39565); //
+        itemlists.push_back(items_6);
+        
+        Vendor vendor_7(700006, GOSSIP_ICON_VENDOR, "Starting Gear - Druid");
+        ItemList items_7(&vendor_7);
+        items_7.AddItem(39553); // 
+        items_7.AddItem(39554); // 
+        items_7.AddItem(39555); // 
+        items_7.AddItem(39556); //
+        items_7.AddItem(39557); //
+        //
+        items_7.AddItem(39544); //
+        items_7.AddItem(39545); // 
+        items_7.AddItem(39546); //
+        items_7.AddItem(39547); // 
+        items_7.AddItem(39548); //
+        //
+        items_7.AddItem(39531); //
+        items_7.AddItem(39538); // 
+        items_7.AddItem(39539); //
+        items_7.AddItem(39542); // 
+        items_7.AddItem(39543); //
+        itemlists.push_back(items_7);
+        
+        Vendor vendor_8(700007, GOSSIP_ICON_VENDOR, "Starting Gear - Priest");
+        ItemList items_8(&vendor_8);
+        items_8.AddItem(39521); // 
+        items_8.AddItem(39523); // 
+        items_8.AddItem(39528); // 
+        items_8.AddItem(39529); //
+        items_8.AddItem(39530); //
+        //
+        items_8.AddItem(39514); //
+        items_8.AddItem(39515); // 
+        items_8.AddItem(39517); //
+        items_8.AddItem(39518); // 
+        items_8.AddItem(39519); //
+        itemlists.push_back(items_8);
+        
+        Vendor vendor_9(700008, GOSSIP_ICON_VENDOR, "Starting Gear - Warlock");
+        ItemList items_9(&vendor_9);
+        items_9.AddItem(39496); // 
+        items_9.AddItem(39497); // 
+        items_9.AddItem(39498); // 
+        items_9.AddItem(39499); //
+        items_9.AddItem(39500); //
+        itemlists.push_back(items_9);
+        
+        Vendor vendor_10(700009, GOSSIP_ICON_VENDOR, "Starting Gear - Mage");
+        ItemList items_10(&vendor_10);
+        items_10.AddItem(39491); // 
+        items_10.AddItem(39492); // 
+        items_10.AddItem(39493); // 
+        items_10.AddItem(39494); //
+        items_10.AddItem(39495); //
+        itemlists.push_back(items_10);
 
         /* DO NOT EDIT ANYTHING BELOW HERE EITHER
          * THIS IS THE END OF THE EDITABLE SECTION
