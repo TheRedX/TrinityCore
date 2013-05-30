@@ -10,6 +10,8 @@
 
 set(scripts_STAT_SRCS
   ${scripts_STAT_SRCS}
+  Custom/npc_multivendor.cpp
+  Custom/pvp_titles.cpp
 )
 
 message("  -> Prepared: Custom")
