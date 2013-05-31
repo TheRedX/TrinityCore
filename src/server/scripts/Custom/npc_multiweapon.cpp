@@ -272,15 +272,52 @@ public:
 
         Vendor vendor_1(700000, GOSSIP_ICON_VENDOR, "Starting Gear - 2 Hand Swords");
         ItemList items_1(&vendor_1);
-        items_1.AddItem(18582); // Azzinoth
-        items_1.AddItem(13262); // Ashbringer
+        items_1.AddItem(45074); // 
+        items_1.AddItem(45205); // 
         itemlists.push_back(items_1);
 
         Vendor vendor_2(700001, GOSSIP_ICON_VENDOR, "Starting Gear - 2 Hand Maces");
         ItemList items_2(&vendor_2);
-        items_2.AddItem(42949); // Polished Spaulders of Valor
-        items_2.AddItem(48685); // Polished Breastplate of Valor
+        items_2.AddItem(39245); // 
         itemlists.push_back(items_2);
+        //
+        Vendor vendor_3(700002, GOSSIP_ICON_VENDOR, "Starting Gear - 2 Hand Axes");
+        ItemList items_3(&vendor_3);
+        items_3.AddItem(37852); // 
+        itemlists.push_back(items_3);
+        //
+        Vendor vendor_4(700003, GOSSIP_ICON_VENDOR, "Starting Gear - Staves");
+        ItemList items_4(&vendor_4);
+        items_4.AddItem(37360); // 
+        items_4.AddItem(45212); // 
+        items_4.AddItem(45128); // 
+        items_4.AddItem(39394); // 
+        items_4.AddItem(39256); // 
+        items_4.AddItem(39255); //
+        items_4.AddItem(37883); //
+        itemlists.push_back(items_4);
+        //
+        Vendor vendor_5(700004, GOSSIP_ICON_VENDOR, "Starting Gear - Polearms");
+        ItemList items_5(&vendor_5);
+        items_5.AddItem(39221); // 
+        itemlists.push_back(items_5);
+        //
+        Vendor vendor_6(700005, GOSSIP_ICON_VENDOR, "Starting Gear - 1 Hand Swords");
+        ItemList items_6(&vendor_6);
+        items_6.AddItem(37401); // 
+        items_6.AddItem(45208); // 
+        items_6.AddItem(45129); // 
+        items_6.AddItem(40703); // 
+        items_6.AddItem(39344); // 
+        items_6.AddItem(39291); // 
+        items_6.AddItem(39270); // 
+        items_6.AddItem(39200); // 
+        itemlists.push_back(items_6);
+        //
+        Vendor vendor_7(700006, GOSSIP_ICON_VENDOR, "Starting Gear - 1 Hand Maces");
+        ItemList items_7(&vendor_7);
+        items_7.AddItem(39221); // 
+        itemlists.push_back(items_7);
 
         /* DO NOT EDIT ANYTHING BELOW HERE EITHER
          * THIS IS THE END OF THE EDITABLE SECTION
