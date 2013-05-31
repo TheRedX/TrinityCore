@@ -14,6 +14,7 @@ set(scripts_STAT_SRCS
   Custom/pvp_titles.cpp
   Custom/npc_multiweapon.cpp
   Custom/teleporter_script.cpp
+  Custom/dungeon_master.cpp
 )
 
 message("  -> Prepared: Custom")
