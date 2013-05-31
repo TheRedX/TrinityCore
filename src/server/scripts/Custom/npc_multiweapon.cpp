@@ -316,8 +316,46 @@ public:
         //
         Vendor vendor_7(700006, GOSSIP_ICON_VENDOR, "Starting Gear - 1 Hand Maces");
         ItemList items_7(&vendor_7);
-        items_7.AddItem(39221); // 
+        items_7.AddItem(37169); // 
+        items_7.AddItem(45203); // 
+        items_7.AddItem(45075); // 
+        items_7.AddItem(39281); // 
+        items_7.AddItem(39226); //
         itemlists.push_back(items_7);
+        //
+        Vendor vendor_8(700007, GOSSIP_ICON_VENDOR, "Starting Gear - 1 Hand Axes");
+        ItemList items_8(&vendor_8);
+        items_8.AddItem(45076); // 
+        items_8.AddItem(45204); // 
+        itemlists.push_back(items_8);
+        //
+        Vendor vendor_9(700008, GOSSIP_ICON_VENDOR, "Starting Gear - Fist Weapons");
+        ItemList items_9(&vendor_9);
+        items_9.AddItem(37693); // 
+        items_9.AddItem(39468); // 
+        items_9.AddItem(40429); // 
+        items_9.AddItem(39468); // 
+        itemlists.push_back(items_9);
+        //
+        Vendor vendor_10(700009, GOSSIP_ICON_VENDOR, "Starting Gear - Daggers");
+        ItemList items_10(&vendor_10);
+        items_10.AddItem(37667); // 
+        items_10.AddItem(45078); // 
+        items_10.AddItem(45214); // 
+        items_10.AddItem(45222); // 
+        items_10.AddItem(39271); // 
+        items_10.AddItem(39427); //
+        itemlists.push_back(items_10);
+        //
+        Vendor vendor_11(700010, GOSSIP_ICON_VENDOR, "Starting Gear - Ranger");
+        ItemList items_11(&vendor_11);
+        items_11.AddItem(39296); // 
+        items_11.AddItem(37191); // 
+        items_11.AddItem(45130); // 
+        items_11.AddItem(45210); // 
+        items_11.AddItem(37238); // 
+        items_11.AddItem(39473); //
+        itemlists.push_back(items_11);
 
         /* DO NOT EDIT ANYTHING BELOW HERE EITHER
          * THIS IS THE END OF THE EDITABLE SECTION
