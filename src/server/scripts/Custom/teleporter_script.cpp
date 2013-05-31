@@ -46,38 +46,25 @@ typedef struct Eric Rochet2;
 //	{menu_id, next_menu_id, icon, name, cost, level, faction, map, x, y, z, o}
 Rochet2 TeLe [] = // key = i & Key
 {
-	{1,	2,	2,	"|cff4169E1|TInterface\\icons\\Achievement_Leader_King_Varian_Wrynn:30|t Alliance Capital Cities|r",	0,	0,	0,	0,	0,	0,	0,	0},
-	{1,	3,	2,	"|cffFF0000|TInterface\\icons\\Achievement_Leader_Sylvanas:30|t Horde Capital Cities|r",	0,	0,	0,	0,	0,	0,	0,	0},
-	{1,	4,	2,	"|cffFFFF00|TInterface\\icons\\Temp:30|t Neutral Capital Cities|r",	0,	0,	0,	0,	0,	0,	0,	0},
-	{1,	5,	9,	"|cffFF8C00|TInterface\\icons\\Achievement_FeatsOfStrength_Gladiator_10:30|t PvP Areas|r",	0,	0,	0,	0,	0,	0,	0,	0},
+	{1,	2,	2,	"|cffFFFF00|TInterface\\icons\\Achievement_Dungeon_Classicraider:30|t Level 1 Dungeons|r",	0,	0,	0,	0,	0,	0,	0,	0},
+	{1,	3,	2,	"|cffFFFF00|TInterface\\icons\\Achievement_Dungeon_Icecrown_Frostmourne:30|t Level 2 Dungeons|r",	0,	0,	0,	0,	0,	0,	0,	0},
+	{1,	4,	2,	"|cffFFFF00|TInterface\\icons\\Achievement_Boss_Galdarah:30|t Level 3 Dungeons|r",	0,	0,	0,	0,	0,	0,	0,	0},
+	{1,	5,	2,	"|cffFFFF00|TInterface\\icons\\Achievement_Boss_Infinitecorruptor:30|t Level 4 Dungeons|r",	0,	0,	0,	0,	0,	0,	0,	0},
+	{1,	6,	2,	"|cffFFFF00|TInterface\\icons\\Achievement_Boss_Kiljaedan:30|t Level 5 Dungeons[Locked]|r",	0,	0,	0,	0,	0,	0,	0,	0},
+	{1,	7,	2,	"|cffFFFF00|TInterface\\icons\\Temp:30|t Starting Zone|r",	0,	0,	0,	0,	0,	0,	0,	0},
 	
-	{2,	0,	2,	"Stormwind",	0,	0,	2,	0,	-8842.09f,	626.358f,	94.0867f,	3.61363f},
-	{2,	0,	2,	"Darnassus",	0,	0,	2,	1,	9869.91f,	2493.58f,	1315.88f,	2.78897f},
-	{2,	0,	2,	"Ironforge",	0,	0,	2,	0,	-4900.47f,	-962.585f,	501.455f,	5.40538f},
-	{2,	0,	2,	"Exodar",	0,	0,	2,	530,	-3864.92f,	-11643.7f,	-137.644f,	5.50862f},
-	{2,	0,	9,	"|cffFF0000Attack Stormwind|r",	0,	60,	1,	0,	-9449.06f,	64.8392f,	56.3581f,	3.07047f},
-	{2,	0,	9,	"|cffFF0000Attack Darnassus|r",	0,	60,	1,	1,	9889.03f,	915.869f,	1307.43f,	1.9336f},
-	{2,	0,	9,	"|cffFF0000Attack Ironforge|r",	0,	60,	1,	0,	-5603.76f,	-482.704f,	396.98f,	5.23499f},
-	{2,	0,	9,	"|cffFF0000Attack Exodar|r",	0,	60,	1,	530,	-4192.62f,	-12576.7f,	36.7598f,	1.62813f},
 	{2,	1,	7,	"|cffffffffBack..|r",	0,	0,	0,	0,	0,	0,	0,	0},
 
-	{3,	0,	2,	"Orgrimmar",	0,	0,	1,	1,	1601.08f,	-4378.69f,	9.9846f,	2.14362f},
-	{3,	0,	2,	"Thunder bluff",	0,	0,	1,	1,	-1274.45f,	71.8601f,	128.159f,	2.80623f},
-	{3,	0,	2,	"Undercity",	0,	0,	1,	0,	1633.75f,	240.167f,	-43.1034f,	6.26128f},
-	{3,	0,	2,	"Silvermoon city",	0,	0,	1,	530,	9738.28f,	-7454.19f,	13.5605f,	0.043914f},
-	{3,	0,	9,	"|cffFF0000Attack Orgrimmar|r",	0,	60,	2,	1,	228.978f,	-4741.87f,	10.1027f,	0.416883f},
-	{3,	0,	9,	"|cffFF0000Attack Thunder bluff|r",	0,	60,	2,	1,	-2473.87f,	-501.225f,	-9.42465f,	0.6525f},
-	{3,	0,	9,	"|cffFF0000Attack Undercity|r",	0,	60,	2,	0,	2274.95f,	323.918f,	34.1137f,	4.24367f},
-	{3,	0,	9,	"|cffFF0000Attack Silvermoon|r",	0,	60,	2,	530,	9024.37f,	-6682.55f,	16.8973f,	3.14131f},
 	{3,	1,	7,	"|cffffffffBack..|r",	0,	0,	0,	0,	0,	0,	0,	0},
 	
-	{4,	0,	2,	"Dalaran",	0,	60,	0,	571,	5809.55f,	503.975f,	657.526f,	2.38338f},
-	{4,	0,	2,	"Shattrath",	0,	60,	0,	530,	-1887.62f,	5359.09f,	-12.4279f,	4.40435f},
-	{4,	0,	2,	"Starting Zone",	0,	60,	0,	530,	-250.550f,	1064.48f,	54.3103f,	4.72309f},
 	{4,	1,	7,	"|cffffffffBack..|r",	0,	0,	0,	0,	0,	0,	0,	0},
 	
-	{5,	0,	2,	"Gurubashi arena",	0,	30,	0,	0,	-13181.8f,	339.356f,	42.9805f,	1.18013f},
 	{5,	1,	7,	"|cffffffffBack..|r",	0,	0,	0,	0,	0,	0,	0,	0},
+	
+	{6,	1,	7,	"|cffffffffBack..|r",	0,	0,	0,	0,	0,	0,	0,	0},
+	
+	{7,	0,	2,	"Starting Zone",	0,	60,	0,	530,	-250.550f,	1064.48f,	54.3103f,	4.72309f},
+	{7,	1,	7,	"|cffffffffBack..|r",	0,	0,	0,	0,	0,	0,	0,	0},
 	
 //	{10,	0,	2,	"Teleport",	0,	0,	0,	map,	xf,	yf,	zf,	of},
 //	{10,	1,	7,	"Back..",	0,	0,	0,	0,	0,	0,	0,	0},
