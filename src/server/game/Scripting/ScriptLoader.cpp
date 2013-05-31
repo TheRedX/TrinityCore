@@ -1297,6 +1297,8 @@ void AddBattlegroundScripts()
 /* This is where custom scripts' loading functions should be declared. */
     void AddSC_npc_multivendor();
     void AddSC_PVPTitles();
+    void AddSC_npc_weaponvendor();
+    void AddSC_tele_script_mortal();
 #endif
 
 void AddCustomScripts()
@@ -1305,6 +1307,7 @@ void AddCustomScripts()
     /* This is where custom scripts should be added. */
     AddSC_npc_multivendor();
     AddSC_PVPTitles();
-
+    AddSC_npc_weaponvendor();
+    AddSC_tele_script_mortal();
 #endif
 }
