@@ -234,7 +234,7 @@ public: SmsgListInventory(uint64 vendor_guid, WorldSession* player_session, Vend
 class npc_offsetvendor : public CreatureScript
 {
 public:
-    npc_weaponvendor() : CreatureScript("npc_offsetvendor"){ }
+    npc_offsetvendor() : CreatureScript("npc_offsetvendor"){ }
 
     std::vector<ItemList> GetVendorList()
     {
