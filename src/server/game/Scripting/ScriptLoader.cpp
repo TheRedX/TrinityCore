@@ -1299,6 +1299,7 @@ void AddBattlegroundScripts()
     void AddSC_PVPTitles();
     void AddSC_npc_weaponvendor();
     void AddSC_tele_script_mortal();
+    void AddSC_npc_offsetvendor();
 #endif
 
 void AddCustomScripts()
@@ -1309,5 +1310,6 @@ void AddCustomScripts()
     AddSC_PVPTitles();
     AddSC_npc_weaponvendor();
     AddSC_tele_script_mortal();
+    AddSC_npc_offsetvendor();
 #endif
 }
