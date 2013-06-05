@@ -13,6 +13,7 @@ set(scripts_STAT_SRCS
   Custom/npc_multivendor.cpp
   Custom/pvp_titles.cpp
   Custom/npc_multiweapon.cpp
+  Custom/npc_multioffset.cpp
   Custom/teleporter_script.cpp
 )
 
