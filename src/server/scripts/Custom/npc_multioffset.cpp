@@ -270,17 +270,60 @@ public:
         * I REPEAT ONCE MORE PLEASE DO NOT TOUCH ANYTHING ELSE IN THE FILE IT IS EXTREMELY DELICATE AND EXTREMELY COMPLEX
         */
 
-        Vendor vendor_1(700000, GOSSIP_ICON_VENDOR, "Starting Gear - 2 Hand Swords");
+        Vendor vendor_1(700000, GOSSIP_ICON_VENDOR, "Starting Gear - Shields-Frills");
         ItemList items_1(&vendor_1);
-        items_1.AddItem(18582); // Azzinoth
-        items_1.AddItem(13262); // Ashbringer
+        items_1.AddItem(39233); // 
+        items_1.AddItem(44313); // 
+        items_1.AddItem(43085); // 
+        items_1.AddItem(39276); // 
+        items_1.AddItem(39311); // 
+        items_1.AddItem(39199); // 
         itemlists.push_back(items_1);
 
-        Vendor vendor_2(700001, GOSSIP_ICON_VENDOR, "Starting Gear - 2 Hand Maces");
+        Vendor vendor_2(700001, GOSSIP_ICON_VENDOR, "Starting Gear - Cloaks");
         ItemList items_2(&vendor_2);
-        items_2.AddItem(42949); // Polished Spaulders of Valor
-        items_2.AddItem(48685); // Polished Breastplate of Valor
+        items_2.AddItem(39225); // 
+        items_2.AddItem(43988); // 
+        items_2.AddItem(39241); //
+        items_2.AddItem(39272); //
+        items_2.AddItem(39297); //
+        items_2.AddItem(39404); //
+        items_2.AddItem(39415); //
         itemlists.push_back(items_2);
+        //
+        Vendor vendor_3(700002, GOSSIP_ICON_VENDOR, "Starting Gear - Rings");
+        ItemList items_3(&vendor_3);
+        items_3.AddItem(47222); // 
+        items_3.AddItem(47200); // 
+        items_3.AddItem(39277); // 
+        items_3.AddItem(39250); // 
+        items_3.AddItem(39244); // 
+        items_3.AddItem(39231); // 
+        items_3.AddItem(39193); // 
+        items_3.AddItem(39141); // 
+        items_3.AddItem(37784); // 
+        items_3.AddItem(37694); // 
+        items_3.AddItem(37642); // 
+        items_3.AddItem(39389); // 
+        items_3.AddItem(39401); // 
+        items_3.AddItem(39407); // 
+        items_3.AddItem(40426); // 
+        items_3.AddItem(37192); // 
+        itemlists.push_back(items_3);
+        //
+        Vendor vendor_4(700003, GOSSIP_ICON_VENDOR, "Starting Gear - Pendants");
+        ItemList items_4(&vendor_4);
+        items_4.AddItem(47219); // 
+        items_4.AddItem(43992); // 
+        items_4.AddItem(40427); // 
+        items_4.AddItem(39472); // 
+        items_4.AddItem(39470); // 
+        items_4.AddItem(39392); // 
+        items_4.AddItem(39282); // 
+        items_4.AddItem(39246); // 
+        items_4.AddItem(39232); // 
+        items_4.AddItem(39146); // 
+        itemlists.push_back(items_4);
 
         /* DO NOT EDIT ANYTHING BELOW HERE EITHER
          * THIS IS THE END OF THE EDITABLE SECTION
