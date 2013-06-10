@@ -1077,6 +1077,10 @@ class Player : public Unit, public GridObject<Player>
 
         void SetSummonPoint(uint32 mapid, float x, float y, float z);
         void SummonIfPossible(bool agree);
+        
+    public:
+        uint32 selectedSlotID;
+        Loot* selectedInterface;
 
         bool Create(uint32 guidlow, CharacterCreateInfo* createInfo);
 
