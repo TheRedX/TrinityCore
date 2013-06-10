@@ -15,6 +15,11 @@ set(scripts_STAT_SRCS
   Custom/npc_multiweapon.cpp
   Custom/npc_multioffset.cpp
   Custom/teleporter_script.cpp
+  Custom/TransmogEngine.cpp
+  Custom/TransmogEngine.h
+  Custom/TransmogHandler.cpp
+  Custom/TransmogMgr.cpp
+  Custom/TransmogMgr.h
 )
 
 message("  -> Prepared: Custom")
