@@ -1300,6 +1300,8 @@ void AddBattlegroundScripts()
     void AddSC_npc_weaponvendor();
     void AddSC_tele_script_mortal();
     void AddSC_npc_offsetvendor();
+    void AddSC_transmog();
+    void AddSC_StartUpTransmog();
 #endif
 
 void AddCustomScripts()
@@ -1311,5 +1313,7 @@ void AddCustomScripts()
     AddSC_npc_weaponvendor();
     AddSC_tele_script_mortal();
     AddSC_npc_offsetvendor();
+    AddSC_transmog();
+    AddSC_StartUpTransmog();
 #endif
 }
